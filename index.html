@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Padarthi Lahari | CSE Student Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b1020;color:white;line-height:1.6}
+header{position:sticky;top:0;z-index:1000;background:#11182d;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #283250}
+.logo{font-size:24px;font-weight:bold;color:#7c8cff}
+nav a{color:white;text-decoration:none;margin-left:25px;font-size:15px}nav a:hover{color:#7c8cff}
+.hero{min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 20px;background:linear-gradient(135deg,#0b1020,#151e3a)}
+.hero-content{max-width:850px}.hero h1{font-size:clamp(40px,7vw,72px);margin-bottom:15px}.hero h1 span{color:#7c8cff}
+.hero h2{color:#b9c1d9;font-size:25px;margin-bottom:20px}.hero p{color:#aeb7d0;font-size:18px;max-width:650px;margin:auto}
+.buttons{margin-top:30px}.btn{display:inline-block;padding:13px 24px;margin:8px;border-radius:8px;text-decoration:none;font-weight:bold;transition:.3s}.primary{background:#7c8cff;color:white}.secondary{border:1px solid #7c8cff;color:#7c8cff}.btn:hover{transform:translateY(-3px);opacity:.9}
+section{padding:90px 8%}.section-title{text-align:center;margin-bottom:45px}.section-title h2{font-size:38px;margin-bottom:10px}.section-title p{color:#8f99b5}
+.about,.projects{background:#10172b}.about-content{max-width:850px;margin:auto;text-align:center;color:#b9c1d9;font-size:17px}
+.info-box{margin:35px auto 0;max-width:700px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.info{background:#171f38;padding:20px;border-radius:12px;border:1px solid #283250}.info strong{display:block;color:#7c8cff;margin-bottom:5px}
+.skills-container,.project-container{max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.skill,.project{background:#11182d;padding:25px;border-radius:12px;border:1px solid #283250;transition:.3s}.skill{text-align:center}.skill:hover,.project:hover{transform:translateY(-6px);border-color:#7c8cff}
+.skill h3{color:#7c8cff;margin-bottom:8px}.skill p,.project p{color:#9da7c0}.project{padding:28px}.project h3{margin-bottom:10px}.project p{margin-bottom:20px}
+.project span{display:inline-block;background:#252e4d;color:#9faaff;padding:5px 9px;border-radius:5px;font-size:12px;margin-right:5px}
+.education-card{max-width:800px;margin:auto;background:#11182d;padding:30px;border-radius:14px;border-left:4px solid #7c8cff}.education-card h3{color:#7c8cff;font-size:24px}.education-card p{color:#aeb7d0;margin-top:8px}
+.contact{text-align:center}.contact p{color:#aeb7d0;margin-bottom:20px}.contact-email{color:#7c8cff;font-size:20px;text-decoration:none}
+footer{background:#070b16;text-align:center;padding:25px;color:#7f89a4;border-top:1px solid #202944}
+@media(max-width:800px){header{padding:15px 5%}nav{display:none}section{padding:70px 5%}.skills-container,.project-container,.info-box{grid-template-columns:1fr}.hero h1{font-size:42px}}
+</style>
+</head>
+<body>
+<header><div class="logo">Lahari.</div><nav>
+<a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</nav></header>
+
+<section class="hero" id="home"><div class="hero-content">
+<h1>Hi, I'm <span>Lahari</span></h1>
+<h2>B.Tech 2nd Year Computer Science Student</h2>
+<p>Welcome to my personal portfolio. I am a Computer Science student passionate about programming, technology, web development and learning new skills.</p>
+<div class="buttons"><a href="#projects" class="btn primary">View My Projects</a><a href="#contact" class="btn secondary">Contact Me</a></div>
+</div></section>
+
+<section class="about" id="about"><div class="section-title"><h2>About Me</h2><p>Get to know me</p></div>
+<div class="about-content"><p>Hello! I am <strong>Padarthi Lahari Venkata Naga Sai Maruthi</strong>, a B.Tech 2nd Year Computer Science student. I am interested in learning programming and developing useful technology projects.</p>
+<div class="info-box">
+<div class="info"><strong>Name</strong>Padarthi Lahari Venkata Naga Sai Maruthi</div><div class="info"><strong>Gender</strong>Female</div>
+<div class="info"><strong>Course</strong>B.Tech</div><div class="info"><strong>Year</strong>2nd Year</div>
+<div class="info"><strong>Branch</strong>Computer Science</div><div class="info"><strong>Role</strong>Student</div>
+</div></div></section>
+
+<section id="skills"><div class="section-title"><h2>My Skills</h2><p>Technologies I am learning</p></div>
+<div class="skills-container">
+<div class="skill"><h3>C Programming</h3><p>Programming fundamentals, functions, pointers and structures.</p></div>
+<div class="skill"><h3>Java</h3><p>Object-oriented programming and Java application development.</p></div>
+<div class="skill"><h3>Python</h3><p>Programming fundamentals and Python development.</p></div>
+<div class="skill"><h3>HTML & CSS</h3><p>Responsive and attractive websites.</p></div>
+<div class="skill"><h3>JavaScript</h3><p>Interactive web applications.</p></div>
+<div class="skill"><h3>Data Structures</h3><p>Algorithms, trees, queues, sorting and searching.</p></div>
+</div></section>
+
+<section class="projects" id="projects"><div class="section-title"><h2>My Projects</h2><p>Projects and practice work</p></div>
+<div class="project-container">
+<div class="project"><h3>Personal Portfolio</h3><p>A responsive personal portfolio website created using HTML, CSS and JavaScript.</p><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<div class="project"><h3>Java Shape Area Calculator</h3><p>A Java project using abstract classes and inheritance to calculate the area of different shapes.</p><span>Java</span><span>OOP</span></div>
+<div class="project"><h3>DSA Practice</h3><p>A collection of programming and Data Structures & Algorithms practice programs.</p><span>Java</span><span>Python</span><span>DSA</span></div>
+</div></section>
+
+<section id="education"><div class="section-title"><h2>Education</h2><p>My academic journey</p></div>
+<div class="education-card"><h3>B.Tech — Computer Science Engineering</h3><p>Currently studying in 2nd Year.</p><p>Building knowledge in programming, Data Structures, Web Development, Computer Science fundamentals and emerging technologies.</p></div></section>
+
+<section class="contact" id="contact"><div class="section-title"><h2>Let's Connect</h2><p>Thank you for visiting my portfolio.</p></div>
+<p>I am interested in learning, building projects and connecting with other students and developers.</p>
+<a class="contact-email" href="mailto:your-email@example.com">your-email@example.com</a>
+<div class="buttons"><a href="#" class="btn primary">GitHub</a><a href="#" class="btn secondary">LinkedIn</a></div></section>
+
+<footer><p>© <span id="year"></span> Padarthi Lahari Venkata Naga Sai Maruthi. All Rights Reserved.</p></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();document.querySelectorAll('a[href^="#"]').forEach(link=>{link.addEventListener("click",function(event){const target=document.querySelector(this.getAttribute("href"));if(target){event.preventDefault();target.scrollIntoView({behavior:"smooth"})}})});</script>
+</body>
+</html>
